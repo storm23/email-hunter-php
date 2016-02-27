@@ -1,0 +1,29 @@
+{
+    "name": "catalisio/email-hunter-php",
+    "description": "Email Hunter PHP API client",
+    "type": "Library",
+    "require": {
+        "php": ">=5.5.0",
+        "catalisio/api-client-php": "dev-master"
+    },
+     "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Goldberg",
+            "email": "julien@catalisio.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Catalisio\\EmailHunterPHP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Catalisio\\EmailHunterPHP\\Tests\\": "tests/"
+        }
+    }
+}
