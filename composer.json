@@ -1,6 +1,7 @@
 {
     "name": "catalisio/email-hunter-php",
     "description": "Email Hunter PHP API client",
+    "license": "MIT",
     "type": "Library",
     "require": {
         "php": ">=5.5.0",
