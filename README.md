@@ -5,7 +5,7 @@ Email Hunter API v1 PHP client
 ## Installation
 
 ```
-composer.phar require catalisio/email-hunter-php
+composer.phar require storm23/email-hunter-php
 ```
 
 ## Documentation
