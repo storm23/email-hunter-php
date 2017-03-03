@@ -1,11 +1,11 @@
 {
-    "name": "catalisio/email-hunter-php",
+    "name": "storm23/email-hunter-php",
     "description": "Email Hunter PHP API client",
     "license": "MIT",
     "type": "Library",
     "require": {
         "php": ">=5.5.0",
-        "catalisio/api-client-php": "~1.0"
+        "storm23/api-client-php": "~1.0"
     },
      "require-dev": {
         "phpunit/phpunit": "~4.0"
@@ -14,7 +14,7 @@
     "authors": [
         {
             "name": "Julien Goldberg",
-            "email": "julien@catalisio.com"
+            "email": "julien.goldberg@gmail.com"
         }
     ],
     "autoload": {
