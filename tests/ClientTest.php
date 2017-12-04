@@ -13,7 +13,7 @@ use Catalisio\EmailHunterPHP\Client;
 class ClientTest extends \PHPUnit_Framework_TestCase {
 
 	// Put your email hunter api_key here
-	const API_KEY = '';
+	const API_KEY = getenv('HUNTER_API_KEY');
 
 	public function testSearch() {
 
